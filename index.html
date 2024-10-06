@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Belated Birthday, Monika!</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6f61;
+            animation: fadeIn 2s;
+        }
+        h2 {
+            color: #6a5acd;
+        }
+        .apology {
+            margin: 20px 0;
+            font-size: 1.2em;
+            animation: slideIn 1s;
+        }
+        .cat {
+            width: 150px;
+            transition: transform 0.3s;
+        }
+        .cat:hover {
+            transform: scale(1.1);
+        }
+        .fun-facts {
+            background-color: #ffe4e1;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            animation: bounce 1s infinite;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .gallery img {
+            width: 150px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #ff69b4;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Belated Birthday, Monika!</h1>
+    <h2>Celebrating You Today!</h2>
+    <div class="apology">
+        <p>Dear Monika, I’m so sorry for wishing you a happy birthday a little late! You mean the world to me, and I hope your special day was filled with love, laughter, and joy. Let's celebrate you today!</p>
+    </div>
+    <img src="download.png" alt="Cute Cat" class="cat" />
+    <p>Here’s a little furry friend to brighten your day!</p>
+    <div class="fun-facts">
+        <p>Did you know?</p>
+        <p>You are now officially 19!</p>
+        <p>Your laughter can light up the room!</p>
+        <p>You have the kindest heart!</p>
+    </div>
+    <div class="gallery">
+        <img src="one.jpg" alt="Memorable Moment 1" />
+        <img src="two.jpg" alt="Memorable Moment 2" />
+        <img src="3.jpg" alt="Memorable Moment 3" />
+    </div>
+    <footer>
+        <p>Wishing you endless fun and joyful moments ahead! Love you dearly, Monika!</p>
+    </footer>
+</body>
+</html>
